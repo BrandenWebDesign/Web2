@@ -1,0 +1,71 @@
+body {
+		background: white;
+	}
+
+
+h1{
+	text-align:center;
+	color:green;
+	width: 60%;
+	min-width: 240px; 
+	max-width: 700px; 
+	margin: 30px auto; /** TB - RL **/	
+}
+
+p {
+	width: 60%;
+	min-width: 240px; 
+	max-width: 700px; 
+	margin: 30px auto; /** TB - RL **/
+	background: #fff;
+	padding: 20px;
+}
+
+/* Custom, iPhone Retina */ 
+   @media only screen and (min-width : 320px){
+	body {
+		background: yellow; /* DO LATER */
+	}
+	
+	h1{
+		color:blue;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+	body {
+		background: green;
+	}
+	
+	h1{
+		color:yellow;  /* DO LATER */
+	}
+}
+
+/* Small Devices, Tablets */
+    @media only screen and (min-width : 668px) {
+	body {
+		background: red;
+	}
+}
+
+/* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px){
+	body {
+		background: blue;
+	}
+	
+	 /* DO LATER */
+}
+
+/* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px){
+	body {
+		background: orange;
+	}
+	
+	h1{
+		color:green;  /* DO LATER */
+	}
+}
